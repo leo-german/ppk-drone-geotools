@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#8CC63F"          # Verde Lima
+backgroundColor = "#FFFFFF"       # Blanco
+secondaryBackgroundColor = "#F4F7F9" # Fondo Gris
+textColor = "#142032"             # Azul Profundo
+font = "sans serif"
