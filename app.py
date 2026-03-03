@@ -168,7 +168,6 @@ with tabs[2]:
                 t_p = pyproj.Transformer.from_crs("EPSG:4326", f"EPSG:{faja}", always_xy=True)
                 e, n_p = t_p.transform(ln, lt)
                 
-                st.balloons()
                 st.info(f"H. Ortométrica: {h_o:.3f} m")
                 csv = f"1,{n_p:.4f},{e:.4f},{h_o:.4f},BASE_PPK"
                 st.download_button("💾 DESCARGAR CSV", csv, "CIVIL_BASE.csv")
