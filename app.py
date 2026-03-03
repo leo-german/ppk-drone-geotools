@@ -89,12 +89,12 @@ def get_geoid_ar16():
 # --- 3. HEADER ---
 st.markdown("""
     <div class="dark-header">
-        <h1>GEOTOOLS <span>PPK PRO</span></h1>
-        <p style="color: #A0AEC0;">Suite Geodésica | 2026 Edition</p>
+        <h1>Procesamiento PPK Universal para Drones DJI</h1>
+        <p style="color: #A0AEC0;">Suite Geodésica</p>
     </div>
 """, unsafe_allow_html=True)
 
-tabs = st.tabs(["⚡ Hatanaka", "🎯 Georreferenciación", "🏗️ Civil 3D"])
+tabs = st.tabs(["⚡ Descompresión RINEX", "🎯 Georreferenciación punto base", "🏗️ Exportación base a Civil 3D"])
 
 ext_d = ["24d", "25d", "26d", "27d", "d", "D"]
 ext_o = ["o", "obs", "24o", "25o", "26o", "27o", "O", "OBS"]
